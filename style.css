@@ -6,7 +6,11 @@ p{
     font-size: 20px;
     color: #828282;
 }
-
+h1{
+    font-size: 60px;
+    color: #565656;
+    line-height: 35px;
+}   
 /* =======Top Part Start ====== */
 
 #top-part{
@@ -73,12 +77,7 @@ h1 span{
 }
 .about-text p{
     line-height: 40px;
-} 
-.about-text h1{
-    font-size: 60px;
-    color: #565656;
-    line-height: 35px;
-}   
+}  
 .contact-me-btn{
     text-decoration: none;
     padding: 30px 60px;
@@ -89,4 +88,39 @@ h1 span{
     border-radius: 50px;
 } 
 /* =======About Us End ====== */
+
+/* ====== my recipies part start ===== */
+
+#my-recipie{
+    text-align: center;
+    margin: 100px 100px;
+}
+#my-recipie p{
+    padding:0 40px;
+    line-height: 40px;
+}
+
+.recipie-img{
+    width: 80%;
+    height: auto;
+}
+.recipie-item{
+    border-radius: 20px;
+    box-shadow: 0 0 15px 5px #bebebe;
+    margin: 30px;
+    padding-top: 50px;
+    width: 100%;
+}
+.recipie-item h2{
+    text-align: left;
+    padding:0 40px;
+    text-transform: uppercase;
+}
+.recipie-item p{
+    text-align: left;
+    padding:0 40px;
+    line-height: 40px;
+}
+
+/* ====== my recipies part END ===== */
 
