@@ -12,7 +12,6 @@ h1{
     line-height: 35px;
 }   
 /* =======Top Part Start ====== */
-
 #top-part{
     background-color: #E5E5E5; 
 }
@@ -52,7 +51,6 @@ h1 span{
 }
 /* =======Top Part End ====== */
 
-
 /* =======About Us Start ====== */
 #about-us{
     background-image: url(images/shapes/7.png);
@@ -60,7 +58,6 @@ h1 span{
     background-repeat: no-repeat;
     background-size:cover;
 }
-
 .about-img{
     width: 50%;
 }
@@ -90,7 +87,6 @@ h1 span{
 /* =======About Us End ====== */
 
 /* ====== my recipies part start ===== */
-
 #my-recipie{
     text-align: center;
     margin: 100px 70px;
@@ -99,17 +95,19 @@ h1 span{
     padding:0 40px;
     line-height: 40px;
 }
-
 .recipie-img{
     width: 80%;
     height: auto;
 }
 .recipie-item{
-    border-radius: 20px;
+    border-radius: 0 20px 20px 0;
     box-shadow: 0 0 15px 5px #bebebe;
     margin: 30px;
     padding-top: 50px;
     width: 100%;
+    border-left: 12px solid;
+    border-image: linear-gradient(#00ebb8,#008fe2);
+    border-image-slice: 1;
 }
 .recipie-item h2{
     text-align: left;
@@ -122,6 +120,57 @@ h1 span{
     line-height: 40px;
 }
 /* ====== my recipies part END ===== */
+
+/* ====== Cook Book Part Statr ==== */
+#cook-book-part{
+    background-color: #4d4d4d;
+    padding: 100px 100px;
+}
+.cook-book-text{
+    text-align: center;
+}
+.cook-book-img{
+    text-align: center;
+}
+.cook-book-img img{
+    width: 70%;
+    align-items: center;
+    
+}
+.cook-book-text h1{
+    color: white;
+    font-size: 40px;
+    padding: 0;
+    line-height: 0;
+}
+.cook-book-text h2{
+    color: yellow;
+    padding: 0;
+}
+.cook-book-text p{
+    color: white;
+    padding: 0 200px;
+    line-height: 40px;
+}
+.sumbit-buttom{
+    padding: 14px 20px;
+    background-image: linear-gradient(#0388f6,#14b8fb);
+    font-size: 15px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.type-name{
+    padding: 15px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.type-email{
+    padding: 15px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+/* ====== Cook Book Part End ==== */
+
 /* ====== Social Part Start ===== */
 .social-part{
     display: flex;
@@ -130,7 +179,6 @@ h1 span{
     box-shadow: 0 0 15px 5px #bebebe;
     border-radius: 20px;
 }
-
 .youtube {
     width: 33.33%;
     text-align: center;
@@ -164,8 +212,4 @@ footer p{
     color: #ffffff;
     text-align: center;
 }
-
 /* ==== footer part end ====  */
-
-
-
