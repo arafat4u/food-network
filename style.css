@@ -93,7 +93,7 @@ h1 span{
 
 #my-recipie{
     text-align: center;
-    margin: 100px 100px;
+    margin: 100px 70px;
 }
 #my-recipie p{
     padding:0 40px;
@@ -121,6 +121,29 @@ h1 span{
     padding:0 40px;
     line-height: 40px;
 }
-
 /* ====== my recipies part END ===== */
+/* ====== Social Part Start ===== */
+.social-part{
+    display: flex;
+    margin: 100px 100px;
+    padding: 50px 10px;
+    box-shadow: 0 0 15px 5px #bebebe;
+    border-radius: 20px;
+}
+
+.youtube {
+    width: 33.33%;
+    text-align: center;
+}
+.instagram{
+    width: 33.33%;
+    text-align: center;
+}
+.dribble{
+    width: 33.33%;
+    text-align: center;
+}
+/* ====== Social Part End ===== */
+
+
 
